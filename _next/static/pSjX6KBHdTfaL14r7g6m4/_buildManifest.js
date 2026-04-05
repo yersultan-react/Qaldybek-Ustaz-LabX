@@ -1,7 +1,12 @@
 self.__BUILD_MANIFEST = {
   "__rewrites": {
     "afterFiles": [],
-    "beforeFiles": [],
+    "beforeFiles": [
+      {
+        "source": "/Qaldybek-Ustaz-LabX//_next/:path+",
+        "destination": "/Qaldybek-Ustaz-LabX/_next/:path+"
+      }
+    ],
     "fallback": []
   },
   "sortedPages": [
